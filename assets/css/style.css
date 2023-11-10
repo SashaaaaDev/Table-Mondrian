@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: cadetblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  margin-bottom: 250px;
+  height: 100vh;
+}
+
+header {
+  background-color: chocolate;
+  color: rgb(4, 4, 65);
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  min-height: 500px;
+}
+
+nav {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: darkslategrey;
+  font-size: 21px;
+}
+
+li {
+  padding: 5px;
+}
+
+footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  position: fixed;
+  background-color: chocolate;
+}
+
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  text-align: center;
+  font-size: 17px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  padding: 10px 10px 120px 0px;
+}
+
+td {
+  border: 10px solid black;
+  height: 55px;
+  width: 55px;
+}
+
+.white {
+  background-color: white;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.w50 {
+  width: 50px;
+}
+
+.w300 {
+  width: 300px;
+}
+
+.w150 {
+  width: 150px;
+}
+
+.w200 {
+  width: 200px;
+}
+
+.w100 {
+  width: 100px;
+}
+
+.h300 {
+  height: 300px;
+}
+
+.h150 {
+  height: 150px;
+}
+
+.h100 {
+  height: 100px;
+}
+
+.h50 {
+  height: 50px;
+}
